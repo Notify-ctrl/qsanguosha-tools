@@ -1,0 +1,8 @@
+[
+    {
+        "token": "room:",
+        "prefix": "askForSkillInvoke",
+        "body": "askForSkillInvoke(${1:player}, ${2:skill_name}, ${3:data})",
+        "detail": "Function"
+    }
+]
