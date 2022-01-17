@@ -5,5 +5,96 @@
         "detail": "constructor",
         "kind": 3,
         "body": "General(${1:extension}, ${2:name}, ${3:kingdom}, ${4:4}, ${5:true}, ${6:false}, ${7:false})"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardMoveReason",
+        "body": "CardMoveReason(${1:moveReason}, ${2:playerId}, ${3:targetId}, ${4:skillName}, ${5:eventName})",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageStruct",
+        "body": "DamageStruct(${1:reason}, ${2:from}, ${3:to}, ${4:1}, ${5:sgs.DamageStruct_Normal})",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardEffectStruct",
+        "body": "CardEffectStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "SlashEffectStruct",
+        "body": "SlashEffectStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardUseStruct",
+        "body": "CardUseStruct(${1:card}, ${2:from}, ${3:to}, ${4:isOwnerUse})",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardsMoveStruct",
+        "body": "CardsMoveStruct(${1:ids}, ${2:from}, ${3:to}, ${4:from_place}, ${5:to_place}, ${6:reason})",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DyingStruct",
+        "body": "DyingStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DeathStruct",
+        "body": "DeathStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "RecoverStruct",
+        "body": "RecoverStruct(${1:who}, ${2:card}, ${3:1})",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "JudgeStruct",
+        "body": "JudgeStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PindianStruct",
+        "body": "PindianStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PhaseChangeStruct",
+        "body": "PhaseChangeStruct()",
+        "detail": "constructor",
+        "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardResponseStruct",
+        "body": "CardResponseStruct()",
+        "detail": "constructor",
+        "kind": 3
     }
 ]
