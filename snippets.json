@@ -2,7 +2,907 @@
     {
         "token": "room:",
         "prefix": "askForSkillInvoke",
-        "body": "askForSkillInvoke(${1:player}, ${2:skill_name}, ${3:data})",
+        "body": "askForSkillInvoke(${1:player}, ${2:self:objectName()}, ${3:data})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForChoice",
+        "body": "askForChoice(${1:player}, ${2:self:objectName()}, ${3:choices}, ${4:data})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForDiscard",
+        "body": "askForDiscard(${1:target}, ${2:reason}, ${3:discard_num}, ${4:min_num}, ${5:optional}, ${6:include_equip}, ${7:prompt}, ${8:pattern})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForExchange",
+        "body": "askForExchange(${1:player}, ${2:reason}, ${3:discard_num}, ${4:min_num}, ${5:include_equip}, ${6:prompt}, ${7:optional}, ${8:pattern})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForSuit",
+        "body": "askForSuit(${1:player}, ${2:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForKingdom",
+        "body": "askForKingdom(${1:player})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForNullification",
+        "body": "askForNullification(${1:trick}, ${2:from}, ${3:to}, ${4:positive})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForCardChosen",
+        "body": "askForCardChosen(${1:player}, ${2:who}, ${3:flags}, ${4:reason}, ${5:handcard_visible}, ${6:sgs.Card_MethodNone}, ${7:disabled_ids})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForCard",
+        "body": "askForCard(${1:player}, ${2:pattern}, ${3:prompt}, ${4:data}, ${5:sgs.Card_MethodDiscard}, ${6:to}, ${7:isRetrial}, ${8:skill_name}, ${9:isProvision})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForUseCard",
+        "body": "askForUseCard(${1:player}, ${2:pattern}, ${3:prompt}, ${4:notice_index}, ${5:sgs.Card_MethodUse}, ${6:addHistory})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForUseSlashTo",
+        "body": "askForUseSlashTo(${1:slasher}, ${2:victim}, ${3:prompt}, ${4:distance_limit}, ${5:disable_extra}, ${6:bool addHistory})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForAG",
+        "body": "askForAG(${1:player}, ${2:card_ids}, ${3:refusable}, ${4:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForCardShow",
+        "body": "askForCardShow(${1:player}, ${2:requestor}, ${3:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForYiji",
+        "body": "askForYiji(${1:player}, ${2:cards}, ${3:skill_name}, ${4:is_preview}, ${5:visible}, ${6:optional}, ${7:max_num}, ${8:players}, ${9:reason}, ${10:prompt}, ${11:notify_skill})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForPindian",
+        "body": "askForPindian(${1:player}, ${2:from}, ${3:to}, ${4:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForPindianRace",
+        "body": "askForPindianRace(${1:from}, ${2:to}, ${3:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForPlayerChosen",
+        "body": "askForPlayerChosen(${1:player}, ${2:targets}, ${3:reason}, ${4:prompt}, ${5:optional}, ${6:notify_skill})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForGeneral",
+        "body": "askForGeneral(${1:player}, ${2:generals}, ${3:default_choice})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForSinglePeach",
+        "body": "askForSinglePeach(${1:player}, ${2:dying})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "drawCards",
+        "body": "drawCards(${1:player}, ${2:num}, ${3:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "obtainCard",
+        "body": "obtainCard(${1:player}, ${2:card}, ${3:unhide})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "throwCard",
+        "body": "throwCard(${1:card}, ${2:who}, ${3:thrower})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "moveCardTo",
+        "body": "moveCardTo(${1:card}, ${2:srcPlayer}, ${3:dstPlayer}, ${4:dstPlace}, ${5:pileName}, ${6:reason}, ${7:forceMoveVisible})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "moveCardsAtomic",
+        "body": "moveCardsAtomic(${1:cards_move}, ${2:forceMoveVisible})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "addSocket",
+        "body": "addSocket(${1:socket})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "isFull",
+        "body": "isFull()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "isFinished",
+        "body": "isFinished()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getLack",
+        "body": "getLack()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getMode",
+        "body": "getMode()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getScenario",
+        "body": "getScenario()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getThread",
+        "body": "getThread()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getCurrent",
+        "body": "getCurrent()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setCurrent",
+        "body": "setCurrent(${1:current})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "alivePlayerCount",
+        "body": "alivePlayerCount()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getOtherPlayers",
+        "body": "getOtherPlayers(${1:player}, ${2:include_dead})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getPlayers",
+        "body": "getPlayers()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getAllPlayers",
+        "body": "getAllPlayers(${1:include_dead})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getAlivePlayers",
+        "body": "getAlivePlayers()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "enterDying",
+        "body": "enterDying(${1:player}, ${2:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getCurrentDyingPlayer",
+        "body": "getCurrentDyingPlayer()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "killPlayer",
+        "body": "killPlayer(${1:victim}, ${2:reason})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "revivePlayer",
+        "body": "revivePlayer(${1:player}, ${2:sendlog})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "aliveRoles",
+        "body": "aliveRoles(${1:except})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "gameOver",
+        "body": "gameOver(${1:winner})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "slashEffect",
+        "body": "slashEffect(${1:effect})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "slashResult",
+        "body": "slashResult(${1:effect}, ${2:jink})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "attachSkillToPlayer",
+        "body": "attachSkillToPlayer(${1:player}, ${2:skill_name})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "detachSkillFromPlayer",
+        "body": "detachSkillFromPlayer(${1:player}, ${2:skill_name}, ${3:is_equip}, ${4:acquire_only})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "handleAcquireDetachSkills",
+        "body": "handleAcquireDetachSkills(${1:player}, ${2:skill_names}, ${3:acquire_only}",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setPlayerFlag",
+        "body": "setPlayerFlag(${1:player}, ${2:flag})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setPlayerProperty",
+        "body": "setPlayerProperty(${1:player}, ${2:property_name}, ${3:value})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setPlayerMark",
+        "body": "setPlayerMark(${1:player}, ${2:mark}, ${3:value})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "addPlayerMark",
+        "body": "addPlayerMark(${1:player}, ${2:mark}, ${3:add_num})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "removePlayerMark",
+        "body": "removePlayerMark(${1:player}, ${2:mark}, ${3:remove_num})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setPlayerCardLimitation",
+        "body": "setPlayerCardLimitation(${1:player}, ${2:limit_list}, ${3:pattern}, ${4:single_turn})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "removePlayerCardLimitation",
+        "body": "removePlayerCardLimitation(${1:player}, ${2:limit_list}, ${3:pattern})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "clearPlayerCardLimitation",
+        "body": "clearPlayerCardLimitation(${1:player}, ${2:single_turn})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setCardFlag",
+        "body": "setCardFlag(${1:card}, ${2:flag}, ${3:who})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "clearCardFlag",
+        "body": "clearCardFlag(${1:card}, ${2:who})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "useCard",
+        "body": "useCard(${1:card_use}, ${2:add_history})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "damage",
+        "body": "damage(${1:data})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "loseHp",
+        "body": "loseHp(${1:victim}, ${2:lose})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "loseMaxHp",
+        "body": "loseMaxHp(${1:victim}, ${2:lose})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "changeMaxHpForAwakenSkill",
+        "body": "changeMaxHpForAwakenSkill(${1:player}, ${2:magnitude})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "recover",
+        "body": "recover(${1:player}, ${2:recover}, ${3:set_emotion})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "cardEffect",
+        "body": "cardEffect(${1:card}, ${2:from}, ${3:to}, ${4:multiple})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "isJinkEffected",
+        "body": "isJinkEffected(${1:user}, ${2:jink})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "judge",
+        "body": "judge(${1:judge_struct})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "sendJudgeResult",
+        "body": "sendJudgeResult(${1:judge})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getNCards",
+        "body": "getNCards(${1:num}, ${2:update_pile_number})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getLord",
+        "body": "getLord()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "askForGuanxing",
+        "body": "(${1:player}, ${2:cards}, ${3:guanxing_type})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "returnToTopDrawPile",
+        "body": "returnToTopDrawPile(${1:cards})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "doGongxin",
+        "body": "doGongxin(${1:player}, ${2:target}, ${3:enabled_ids}, ${4:skill_name})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "drawCard",
+        "body": "drawCard()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "fillAG",
+        "body": "fillAG(${1:card_ids}, ${2:who}, ${3:disabled_ids})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "takeAG",
+        "body": "takeAG(${1:player}, ${2:card_id}, ${3:move_cards}, ${4:to_notify})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "clearAG",
+        "body": "clearAG(${1:player})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "provide",
+        "body": "provide(${1:card})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getLieges",
+        "body": "getLieges(${1:kingdom}, ${2:lord})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "sendLog",
+        "body": "sendLog(${1:log}, ${2:player})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "sendCompulsoryTriggerLog",
+        "body": "sendCompulsoryTriggerLog(${1:player}, ${2:skill_name}, ${3:notify_skill})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "showCard",
+        "body": "showCard(${1:player}, ${2:card_id}, ${3:only_viewer})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "showAllCards",
+        "body": "showAllCards(${1:player}, ${2:to})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "retrial",
+        "body": "retrial(${1:card}, ${2:player}, ${3:judge}, ${4:skill_name}, ${5:exchange})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "notifySkillInvoked",
+        "body": "notifySkillInvoked(${1:player}, ${2:skill_name})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "broadcastSkillInvoke",
+        "body": "broadcastSkillInvoke(${1:skillName}, ${2:type})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "doLightbox",
+        "body": "doLightbox(${1:lightboxName}, ${2:duration}, ${3:pixelSize})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "doAnimate",
+        "body": "doAnimate(${1:type}, ${2:arg1}, ${3:arg2}, ${4:players})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "doSuperLightbox",
+        "body": "doSuperLightbox(${1:heroName}, ${2:skillName})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "notifyMoveCards",
+        "body": "notifyMoveCards(${1:isLostPhase}, ${2:cards_moves}, ${3:forceVisible}, ${4:players})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "notifyUpdateCard",
+        "body": "notifyUpdateCard(${1:player}, ${2:cardId}, ${3:newCard})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "broadcastUpdateCard",
+        "body": "broadcastUpdateCard(${1:players}, ${2:cardId}, ${3:newCard})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "notifyResetCard",
+        "body": "notifyResetCard(${1:player}, ${2:cardId})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "broadcastResetCard",
+        "body": "broadcastResetCard(${1:players}, ${2:cardId})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "changePlayerGeneral",
+        "body": "changePlayerGeneral(${1:player}, ${2:new_general})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "changePlayerGeneral2",
+        "body": "changePlayerGeneral2(${1:player}, ${2:new_general})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "filterCards",
+        "body": "filterCards(${1:player}, ${2:cards}, ${3:refilter})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "acquireSkill",
+        "body": "acquireSkill(${1:player}, ${2:skill}, ${3:open})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "adjustSeats",
+        "body": "adjustSeats()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "swapPile",
+        "body": "swapPile()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getDiscardPile",
+        "body": "getDiscardPile()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getDrawPile",
+        "body": "getDrawPile()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getCardFromPile",
+        "body": "getCardFromPile(${1:card_name})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "findPlayer",
+        "body": "findPlayer(${1:general_name}, ${2:include_dead})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "findPlayerBySkillName",
+        "body": "findPlayerBySkillName(${1:skill_name}",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "findPlayersBySkillName",
+        "body": "findPlayersBySkillName(${1:skill_name}",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "installEquip",
+        "body": "installEquip(${1:player}, ${2:*equip_name})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "resetAI",
+        "body": "resetAI(${1:player})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "changeHero",
+        "body": "changeHero(${1:player}, ${2:new_general}, ${3:full_state}, ${4:invokeStart}, ${5:isSecondaryHero}, ${6:sendLog})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "swapSeat",
+        "body": "swapSeat(${1:player_a}, ${2:player_b})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getLuaState",
+        "body": "getLuaState()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setFixedDistance",
+        "body": "setFixedDistance(${1:from}, ${2:to}, ${3:distance})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "removeFixedDistance",
+        "body": "removeFixedDistance(${1:from}, ${2:to}, ${3:distance})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "insertAttackRangePair",
+        "body": "insertAttackRangePair(${1:from}, ${2:to})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "removeAttackRangePair",
+        "body": "removeAttackRangePair(${1:from}, ${2:to})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "hasWelfare",
+        "body": "hasWelfare(${1:player})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getFront",
+        "body": "getFront(${1:player_a}, ${2:player_b})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "signup",
+        "body": "signup(${1:player}, ${2:screen_name}, ${3:avatar}, ${4:is_robot})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getOwner",
+        "body": "getOwner()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "sortByActionOrder",
+        "body": "sortByActionOrder(${1:players})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "isProhibited",
+        "body": "isProhibited(${1:from}, ${2:to}, ${3:card}, ${4:others})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setTag",
+        "body": "setTag(${1:key}, ${2:value})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getTag",
+        "body": "setTag(${1:key})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "removeTag",
+        "body": "removeTag(${1:key})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setEmotion",
+        "body": "setEmotion(${1:target}, ${2:emotion})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getCardPlace",
+        "body": "getCardPlace(${1:card_id})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getCardOwner",
+        "body": "getCardOwner(${1:card_id})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "setCardMapping",
+        "body": "setCardMapping(${1:card_id}, ${2:owner}, ${3:place})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "activate",
+        "body": "activate(${1:player}, ${2:card_use})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "isCanceled",
+        "body": "isCanceled(${1:effect})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "addPlayerHistory",
+        "body": "addPlayerHistory(${1:player}, ${2:key}, ${3:times})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "broadcastInvoke",
+        "body": "broadcastInvoke(${1:method}, ${2:arg}, ${3:except})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "doNotify",
+        "body": "doNotify(${1:player}, ${2:command}, ${3:arg})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "doBroadcastNotify",
+        "body": "doBroadcastNotify(${1:players}, ${2:command}, ${3:arg})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "updateStateItem",
+        "body": "updateStateItem()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "notifyProperty",
+        "body": "notifyProperty(${1:playerToNotify}, ${2:propertyOwner}, ${3:propertyName}, ${4:value})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "broadcastProperty",
+        "body": "broadcastProperty(${1:player}, ${2:property_name}, ${3:value})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "getBossModeExpMult",
+        "body": "getBossModeExpMult(${1:level})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "nextPlayer",
+        "body": "nextPlayer()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "output",
+        "body": "output(${1:msg})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "outputEventStack",
+        "body": "outputEventStack()",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "writeToConsole",
+        "body": "writeToConsole(${1:msg})",
+        "detail": "Function"
+    },
+    {
+        "token": "room:",
+        "prefix": "throwEvent",
+        "body": "throwEvent(${1:event})",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CreateTriggerSkill",
+        "body": "CreateTriggerSkill{\n    name = \"${1:name}\",\n    events = {${2:events}},\n    frequency = ${3:sgs.Skill_NotFrequent},\n    on_trigger = function(self, event, player, data)\n        local room = player:getRoom()\n        ${4:}\n    end,\n    can_trigger = function(self, target)\n        return target and target:hasSkill(self:objectName())\n    end,\n}",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CreateProhibitSkill",
+        "body": "CreateProhibitSkill{\n    name = \"${1:name}\",\n    is_prohibited = function(self, from, to, card)\n        ${2:}\n    end,\n}",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CreateDistanceSkill",
+        "body": "CreateDistanceSkill{\n    name = \"${1:name}\",\n    correct_func = function(self, from, to)\n        ${2:return 0}\n    end,\n}",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CreateFilterSkill",
+        "body": "CreateFilterSkill{\n    name = \"${1:name}\",\n    view_filter = function(self, to_select)\n        ${2:return false}\n    end,\n    view_as = function(self, card)\n        ${3:return nil}\n    end,\n}",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CreateMaxCardsSkill",
+        "body": "CreateMaxCardsSkill{\n    name = \"${1:name}\",\n    extra_func = function(self, target)\n        ${2: -- TODO}\n    end,\n}",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CreateTargetModSkill",
+        "body": "CreateTargetModSkill{\n    name = \"${1:name}\",\n    residue_func = function(self, from, card)\n        ${2:return 0}\n    end,\n    distance_limit_func = function(self, from, card)\n        ${3:return 0}\n    end,\n    extra_target_func = function(self, from, card)\n        ${4:return 0}\n    end,\n}",
+        "detail": "Function"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "LoadTranslationTable",
+        "body": "LoadTranslationTable{\n    ${1:}\n}",
         "detail": "Function"
     }
 ]
