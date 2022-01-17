@@ -1,11 +1,13 @@
 const vscode = require('vscode');
 let snippets = require('./snippets.json')
+const room_snippets = require('./room.json')
 const card_snippets = require('./card.json')
 const engine_snippets = require('./engine.json')
 const player_snippets = require('./player.json')
 
 let loaded = false
 if (!loaded) {
+    snippets.push(...room_snippets);
     snippets.push(...card_snippets);
     snippets.push(...engine_snippets);
     snippets.push(...player_snippets);
