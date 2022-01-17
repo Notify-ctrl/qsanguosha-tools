@@ -1,0 +1,1040 @@
+[
+    {
+        "token": "sgs.",
+        "prefix": "General_Sexless",
+        "kind": 19,
+        "detail": "General::Gender"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "General_Male",
+        "kind": 19,
+        "detail": "General::Gender"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "General_Female",
+        "kind": 19,
+        "detail": "General::Gender"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "General_Neuter",
+        "kind": 19,
+        "detail": "General::Gender"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "Player_RoundStart",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Start",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Judge",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Draw",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Play",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Discard",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Finish",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_NotActive",
+        "kind": 19,
+        "detail": "Player::Phace"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_PlaceHand",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_PlaceEquip",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_PlaceDelayedTrick",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_PlaceJudge",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_PlaceSpecial",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_DiscardPile",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_DrawPile",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_PlaceTable",
+        "kind": 19,
+        "detail": "Player::Place"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Lord",
+        "kind": 19,
+        "detail": "Player::Role"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Loyalist",
+        "kind": 19,
+        "detail": "Player::Role"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Rebel",
+        "kind": 19,
+        "detail": "Player::Role"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Player_Renegade",
+        "kind": 19,
+        "detail": "Player::Role"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "DamageStruct_Normal",
+        "kind": 19,
+        "detail": "DamageStruct::Nature"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageStruct_Fire",
+        "kind": 19,
+        "detail": "DamageStruct::Nature"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageStruct_Thunder",
+        "kind": 19,
+        "detail": "DamageStruct::Nature"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "CardUseStruct_CARD_USE_REASON_UNKNOWN",
+        "kind": 19,
+        "detail": "CardUseStruct::CardUseReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardUseStruct_CARD_USE_REASON_PLAY",
+        "kind": 19,
+        "detail": "CardUseStruct::CardUseReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardUseStruct_CARD_USE_REASON_RESPONSE",
+        "kind": 19,
+        "detail": "CardUseStruct::CardUseReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardUseStruct_CARD_USE_REASON_RESPONSE_USE",
+        "kind": 19,
+        "detail": "CardUseStruct::CardUseReason"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "NonTrigger",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "GameStart",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TurnStart",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EventPhaseStart",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EventPhaseProceeding",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EventPhaseEnd",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EventPhaseChanging",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EventPhaseSkipping",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "DrawNCards",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "AfterDrawNCards",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DrawInitialCards",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "AfterDrawInitialCards",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "PreHpRecover",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "HpRecover",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PreHpLost",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "HpLost",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "HpChanged",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "MaxHpChanged",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "EventLoseSkill",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EventAcquireSkill",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "StartJudge",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "AskForRetrial",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "FinishRetrial",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "FinishJudge",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PindianVerifying",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Pindian",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TurnedOver",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "ChainStateChanged",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "ConfirmDamage",    
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Predamage",        
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageForseen",    
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageCaused",     
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageInflicted",  
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PreDamageDone",    
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageDone",       
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Damage",           
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Damaged",          
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "DamageComplete",   
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "EnterDying",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Dying",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "QuitDying",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "AskForPeaches",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "AskForPeachesDone",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Death",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "BuryVictim",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "BeforeGameOverJudge",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "GameOverJudge",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "GameFinished",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "SlashEffected",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "SlashProceed",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "SlashHit",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "SlashMissed",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "JinkEffect",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "NullificationEffect",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardAsked",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PreCardResponded",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardResponded",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "BeforeCardsMove", 
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardsMoveOneTime",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PreCardUsed",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardUsed",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TargetSpecifying",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TargetConfirming",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TargetSpecified",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TargetConfirmed",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardEffect",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardEffected",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "PostCardEffected",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "CardFinished",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TrickCardCanceling",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TrickEffect",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "ChoiceMade",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "StageChange",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "FetchDrawPileCard",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Debut",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "TurnBroken",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "NumOfEvents",
+        "kind": 19,
+        "detail": "enum TriggerEvent"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "Card_Spade",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_Club",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_Heart",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_Diamond",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_NoSuitBlack",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_NoSuitRed",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_NoSuit",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_SuitToBeDecided",
+        "kind": 19,
+        "detail": "Card::Suit"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_MethodNone",
+        "kind": 19,
+        "detail": "Card::HandlingMethod"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_MethodUse",
+        "kind": 19,
+        "detail": "Card::HandlingMethod"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_MethodResponse",
+        "kind": 19,
+        "detail": "Card::HandlingMethod"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_MethodDiscard",
+        "kind": 19,
+        "detail": "Card::HandlingMethod"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_MethodRecast",
+        "kind": 19,
+        "detail": "Card::HandlingMethod"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_MethodPindian",
+        "kind": 19,
+        "detail": "Card::HandlingMethod"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_TypeSkill",
+        "kind": 19,
+        "detail": "Card::CardType"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_TypeBasic",
+        "kind": 19,
+        "detail": "Card::CardType"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_TypeTrick",
+        "kind": 19,
+        "detail": "Card::CardType"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Card_TypeEquip",
+        "kind": 19,
+        "detail": "Card::CardType"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "Package_GeneralPack",
+        "kind": 19,
+        "detail": "Package::Type"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Package_CardPack",
+        "kind": 19,
+        "detail": "Package::Type"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Package_SpecialPack",
+        "kind": 19,
+        "detail": "Package::Type"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "Skill_Frequent",
+        "kind": 19,
+        "detail": "Skill::Frequency"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Skill_NotFrequent",
+        "kind": 19,
+        "detail": "Skill::Frequency"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Skill_Compulsory",
+        "kind": 19,
+        "detail": "Skill::Frequency"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Skill_Limited",
+        "kind": 19,
+        "detail": "Skill::Frequency"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Skill_Wake",
+        "kind": 19,
+        "detail": "Skill::Frequency"
+    },
+    
+    {
+        "token": "sgs.",
+        "prefix": "Room_GuanxingUpOnly",
+        "kind": 19,
+        "detail": "Room::GuanxingType"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Room_GuanxingBothSides",
+        "kind": 19,
+        "detail": "Room::GuanxingType"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "Room_GuanxingDownOnly",
+        "kind": 19,
+        "detail": "Room::GuanxingType"
+    },
+
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_UNKNOWN",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_USE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_RESPONSE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_DISCARD",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_RECAST",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_PINDIAN",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_DRAW",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_GOTCARD",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_SHOW",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_TRANSFER",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_PUT",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_LETUSE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_RETRIAL",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_RULEDISCARD",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_THROW",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_DISMANTLE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_GIVE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_EXTRACTION",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_GOTBACK",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_RECYCLE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_ROB",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_PREVIEWGIVE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_TURNOVER",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_JUDGE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_PREVIEW",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_DEMONSTRATE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_SWAP",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_OVERRIDE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_EXCHANGE_FROM_PILE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_NATURAL_ENTER",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_REMOVE_FROM_PILE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_JUDGEDONE",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_REASON_CHANGE_EQUIP",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    },
+    {
+        "token": "sgs.",
+        "prefix": "S_MASK_BASIC_REASON",
+        "kind": 20,
+        "detail": "CardMoveReason"
+    }
+]

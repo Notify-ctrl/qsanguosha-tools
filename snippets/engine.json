@@ -1,0 +1,436 @@
+[
+    {
+        "token": "Sanguosha:",
+        "prefix": "addTranslationEntry",
+        "body": "addTranslationEntry(${1:key}, ${2:value})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "translate",
+        "body": "translate(${1:to_translate})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "addPackage",
+        "body": "addPackage(${1:package})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "addBanPackage",
+        "body": "addBanPackage(${1:package_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getBanPackages",
+        "body": "getBanPackages()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "cloneCard",
+        "body": "cloneCard(${1:name}, ${2:sgs.Card_SuitToBeDecided}, ${3:-1})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "cloneSkillCard",
+        "body": "cloneSkillCard(${1:name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getVersion",
+        "body": "getVersion()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getVersionName",
+        "body": "getVersionName()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getExtensions",
+        "body": "getExtensions()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getKingdoms",
+        "body": "getKingdoms()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getKingdomColor",
+        "body": "getKingdomColor(${1:kingdom})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getSetupString",
+        "body": "getSetupString()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getAvailableModes",
+        "body": "getAvailableModes()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getModeName",
+        "body": "getModeName(${1:mode})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getPlayerCount",
+        "body": "getPlayerCount(${1:mode})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRoles",
+        "body": "getRoles(${1:mode})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRoleList",
+        "body": "getRoleList(${1:mode})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRoleIndex",
+        "body": "getRoleIndex()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getPattern",
+        "body": "getPattern(${1:name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "matchExpPattern",
+        "body": "matchExpPattern(${1:pattern}, ${2:player}, ${3:card})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getCardHandlingMethod",
+        "body": "getCardHandlingMethod(${1:method_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRelatedSkills",
+        "body": "getRelatedSkills(${1:skill_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getMainSkill",
+        "body": "getMainSkill(${1:skill_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getModScenarioNames",
+        "body": "getModScenarioNames()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "addScenario",
+        "body": "addScenario(${1:scenario})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getScenario",
+        "body": "getScenario(${1:name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getGeneral",
+        "body": "(${1:name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getGeneralCount",
+        "body": "getGeneralCount(${1:include_banned}, ${2:kingdom})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getSkill",
+        "body": "getSkill(${1:skill_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getTriggerSkill",
+        "body": "getTriggerSkill(${1:skill_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getViewAsSkill",
+        "body": "getViewAsSkill(${1:skill_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getDistanceSkills",
+        "body": "getDistanceSkills()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getMaxCardsSkills",
+        "body": "getMaxCardsSkills()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getTargetModSkills",
+        "body": "getTargetModSkills()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getInvaliditySkills",
+        "body": "getInvaliditySkills()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getGlobalTriggerSkills",
+        "body": "getGlobalTriggerSkills()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "addSkills",
+        "body": "addSkills(${1:skills})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getCardCount",
+        "body": "getCardCount()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getEngineCard",
+        "body": "getEngineCard(${1:cardId})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getCard",
+        "body": "getCard(${1:cardId})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getWrappedCard",
+        "body": "getWrappedCard(${1:cardId})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getLords",
+        "body": "getLords(${1:contain_banned})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRandomLords",
+        "body": "getRandomLords()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRandomGenerals",
+        "body": "getRandomGenerals(${1:count}, ${2:ban_set}, ${3:kingdom})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRandomCards",
+        "body": "getRandomCards()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getRandomGeneralName",
+        "body": "getRandomGeneralName()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getLimitedGeneralNames",
+        "body": "getLimitedGeneralNames(${1:kingdom})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getAllGenerals",
+        "body": "getAllGenerals()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "playSystemAudioEffect",
+        "body": "playSystemAudioEffect(${1:name}, ${2:superpose})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "playAudioEffect",
+        "body": "playAudioEffect(${1:filename}, ${2:superpose})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "playSkillAudioEffect",
+        "body": "playSkillAudioEffect(${1:skill_name}, ${2:index}, ${3:superpose})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "isProhibited",
+        "body": "isProhibited(${1:from}, ${2:to}, ${3:card}, ${4:others})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "correctDistance",
+        "body": "correctDistance(${1:from}, ${2:to})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "correctMaxCards",
+        "body": "correctMaxCards(${1:target})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "correctCardTarget",
+        "body": "correctCardTarget(${1:type}, ${2:from}, ${3:card})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "correctSkillValidity",
+        "body": "correctSkillValidity(${1:player}, ${2:skill})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "currentRoom",
+        "body": "currentRoom()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getCurrentCardUsePattern",
+        "body": "getCurrentCardUsePattern()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "getCurrentCardUseReason",
+        "body": "getCurrentCardUseReason()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "findConvertFrom",
+        "body": "findConvertFrom(${1:general_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "Sanguosha:",
+        "prefix": "isGeneralHidden",
+        "body": "isGeneralHidden(${1:general_name})",
+        "detail": "Function",
+        "kind": 2
+    }
+]

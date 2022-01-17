@@ -1,0 +1,9 @@
+[
+    {
+        "token": "sgs.",
+        "prefix": "General",
+        "detail": "constructor",
+        "kind": 3,
+        "body": "General(${1:extension}, ${2:name}, ${3:kingdom}, ${4:4}, ${5:true}, ${6:false}, ${7:false})"
+    }
+]

@@ -1,0 +1,506 @@
+[
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getSuitString",
+        "body": "getSuitString()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isBlack",
+        "body": "isBlack()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isRed",
+        "body": "isRed()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getId",
+        "body": "getId()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setId",
+        "body": "setId(${1:id})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getEffectiveId",
+        "body": "getEffectiveId()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getNumber",
+        "body": "getNumber()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setNumber",
+        "body": "setNumber(${1:number})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getNumberString",
+        "body": "getNumberString()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getSuit",
+        "body": "getSuit()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setSuit",
+        "body": "setSuit(${1:suit})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "sameColorWith",
+        "body": "sameColorWith(${1:other})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isEquipped",
+        "body": "isEquipped()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getPackage",
+        "body": "getPackage()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getFullName",
+        "body": "getFullName(${1:include_suit})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getLogName",
+        "body": "getLogName()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getName",
+        "body": "getName()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getSkillName",
+        "body": "getSkillName(${1:removePrefix})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setSkillName",
+        "body": "setSkillName(${1:skill_name})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getDescription",
+        "body": "getDescription()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isVirtualCard",
+        "body": "isVirtualCard()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "match",
+        "body": "match(${1:pattern})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "addSubcard",
+        "body": "addSubcard(${1:card})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getSubcards",
+        "body": "getSubcards()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "clearSubcards",
+        "body": "clearSubcards()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "clearSubcards",
+        "body": "clearSubcards()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "addSubcards",
+        "body": "addSubcards(${1:cards})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "subcardsLength",
+        "body": "subcardsLength()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getType",
+        "body": "getType()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getSubtype",
+        "body": "getSubtype()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getTypeId",
+        "body": "getTypeId()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "toString",
+        "body": "toString(${1:hidden})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isNDTrick",
+        "body": "isNDTrick()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "targetFixed",
+        "body": "targetFixed()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "targetsFeasible",
+        "body": "targetsFeasible(${1:targets}, ${2:self})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "targetFilter",
+        "body": "targetFilter(${1:targets}, ${2:to_select}, ${3:self})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isAvailable",
+        "body": "isAvailable(${1:player})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "validate",
+        "body": "validate(${1:card_use})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "validateInResponse",
+        "body": "validateInResponse(${1:user})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isMute",
+        "body": "isMute()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "willThrow",
+        "body": "willThrow()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "canRecast",
+        "body": "canRecast()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "hasPreAction",
+        "body": "hasPreAction()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getHandlingMethod",
+        "body": "getHandlingMethod()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setCanRecast",
+        "body": "setCanRecast(${1:can})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setFlags",
+        "body": "setFlags(${1:flag})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "hasFlag",
+        "body": "hasFlag(${1:flag})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "clearFlags",
+        "body": "clearFlags()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setTag",
+        "body": "setTag(${1:key}, ${2:data})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getTag",
+        "body": "getTag(${1:key})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "removeTag",
+        "body": "removeTag(${1:key})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "onUse",
+        "body": "onUse(${1:room}, ${2:card_use})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "use",
+        "body": "use(${1:room}, ${2:source}, ${3:targets})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "onEffect",
+        "body": "onEffect(${1:effect})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isCancelable",
+        "body": "isCancelable(${1:effect})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isKindOf",
+        "body": "isKindOf(${1:cardType})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getFlags",
+        "body": "getFlags()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "isModified",
+        "body": "isModified()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getClassName",
+        "body": "getClassName()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getRealCard",
+        "body": "getRealCard()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "CompareByNumber",
+        "body": "CompareByNumber(${1:card_a}, ${2:card_b})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "CompareBySuit",
+        "body": "CompareBySuit(${1:card_a}, ${2:card_b})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "CompareByType",
+        "body": "CompareByType(${1:card_a}, ${2:card_b})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "Parse",
+        "body": "Parse(${1:str})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "Clone",
+        "body": "Clone(${1:card})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "Suit2String",
+        "body": "Suit2String(${1:suit})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "toEquipCard",
+        "body": "toEquipCard()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "toWeapon",
+        "body": "toWeapon()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "toWrapped",
+        "body": "toWrapped()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "toTrick",
+        "body": "toTrick()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "setUserString",
+        "body": "setUserString(${1:user_string})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "card:|dummy:|c:|slash:|trick:|equip:",
+        "prefix": "getUserString",
+        "body": "getUserString()",
+        "detail": "Function",
+        "kind": 2
+    }
+]

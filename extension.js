@@ -1,43 +1,50 @@
 const vscode = require('vscode');
-let snippets = require('./snippets.json')
-const room_snippets = require('./room.json')
-const card_snippets = require('./card.json')
-const engine_snippets = require('./engine.json')
-const player_snippets = require('./player.json')
+var snippets = [];
+const sgsex_snippets = require('./snippets/sgs_ex.json');
+const room_snippets = require('./snippets/room.json');
+const card_snippets = require('./snippets/card.json');
+const engine_snippets = require('./snippets/engine.json');
+const player_snippets = require('./snippets/player.json');
+const enum_snippets = require('./snippets/enum.json');
+const constructor_snippets = require('./snippets/constructor.json');
 
-let loaded = false
+var loaded = false;
 if (!loaded) {
+    snippets.push(...sgsex_snippets);
     snippets.push(...room_snippets);
     snippets.push(...card_snippets);
     snippets.push(...engine_snippets);
     snippets.push(...player_snippets);
+    snippets.push(...enum_snippets);
+    snippets.push(...constructor_snippets);
     loaded = true;
 }
 
 // 获取这一行到目前为止的上一个不是字母的位置，没有的话返回0
 function getLastNonLetter(document, position) {
     const line = document.getText(new vscode.Range(new vscode.Position(position.line, 0), position));
-    const result = line.search(/[^a-zA-Z][a-zA-Z]+$/);
-    return new vscode.Position(position.line, result === -1 ? 0 : result);
+    const result = line.search(/[^a-zA-Z0-9][a-zA-Z0-9]*[a-zA-Z0-9]$/);
+    return new vscode.Position(position.line, result === -1 ? 0 : result + 1);
 }
 
 function activate(context) {
 	let completion = vscode.languages.registerCompletionItemProvider({language: 'lua', scheme: 'file'}, {
 		provideCompletionItems(document, position) {
-            let prevPosition = position;
-            prevPosition.character = Math.max(0, prevPosition.character - 1);
+            let prevPosition = new vscode.Position(position.line, Math.max(0, position.character - 1));
+            //console.log(document.getText(new vscode.Range(new vscode.Position(position.line, 0), prevPosition)))
 			const line = document.getText(new vscode.Range(getLastNonLetter(document, prevPosition), position));
             const afterpos = new vscode.Range(position, new vscode.Position(position.line, position.character + 1));
             const after = document.getText(afterpos);
-
+            
+            console.log(line)
             let items = [];
 
             for (const snippet of snippets) {
                 if (snippet.token) {
-                    for (t of snippet.token.split('|')) {
-                        if (line.match(new RegExp(`${t.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&")}(?![^\\w\\n\\s\\r\\-])[\\w\\n\\s\\r\\-]*`))) {
+                    for (const t of snippet.token.split('|')) {
+                        if (line === t) {
                             let item = new vscode.CompletionItem(snippet.prefix);
-                            item.insertText = new vscode.SnippetString(snippet.body);
+                            item.insertText = new vscode.SnippetString(snippet.body || snippet.prefix);
                             item.documentation = new vscode.MarkdownString(snippet.desc);
                             item.kind = snippet.kind;
                             item.detail = snippet.detail || snippet.prefix;
@@ -53,7 +60,7 @@ function activate(context) {
 
             return items;
 		}
-	}, '.', ':', '_');
+	}, '.', ':');
 
 	// TODO
     // let hover = vscode.languages.registerHoverProvider({language: 'lua', scheme: 'file'}, {
