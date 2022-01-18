@@ -1349,5 +1349,12 @@
         "body": "removePileByName(${1:pile_name})",
         "detail": "Function",
         "kind": 2
+    },
+    {
+        "token": "player:|source:|target:|p:|enemy:|friend:|from:|to:",
+        "prefix": "objectName",
+        "body": "objectName()",
+        "detail": "Function",
+        "kind": 2
     }
 ]
