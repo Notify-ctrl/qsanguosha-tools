@@ -1,0 +1,121 @@
+[
+    {
+        "token": "skill:",
+        "prefix": "isLordSkill",
+        "body": "isLordSkill()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "isAttachedLordSkill",
+        "body": "isAttachedLordSkill()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getDescription",
+        "body": "getDescription()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "isVisible",
+        "body": "isVisible()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getEffectIndex",
+        "body": "getEffectIndex(${1:player}, ${2:card})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getDialog",
+        "body": "getDialog()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "initMediaSource",
+        "body": "initMediaSource()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "playAudioEffect",
+        "body": "playAudioEffect(${1:index}, ${2:superpose})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getFrequency",
+        "body": "getFrequency(${1:target})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getSources",
+        "body": "getSources()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getCorrect",
+        "body": "getCorrect(${1:from}, ${2:to})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getExtra",
+        "body": "getExtra(${1:target})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getFixed",
+        "body": "getFixed(${1:target})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getPattern",
+        "body": "getPattern()",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getResidueNum",
+        "body": "getResidueNum(${1:from}, ${2:card}, ${3:to})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getDistanceLimit",
+        "body": "getDistanceLimit(${1:from}, ${2:card}, ${3:to})",
+        "detail": "Function",
+        "kind": 2
+    },
+    {
+        "token": "skill:",
+        "prefix": "getExtraTargetNum",
+        "body": "getExtraTargetNum(${1:from}, ${2:card})",
+        "detail": "Function",
+        "kind": 2
+    }
+]

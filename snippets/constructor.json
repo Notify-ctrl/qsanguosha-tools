@@ -96,5 +96,12 @@
         "body": "CardResponseStruct()",
         "detail": "constructor",
         "kind": 3
+    },
+    {
+        "token": "sgs.",
+        "prefix": "LogMessage",
+        "body": "LogMessage()",
+        "detail": "constructor",
+        "kind": 3
     }
 ]
